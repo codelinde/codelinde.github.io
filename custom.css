@@ -1,0 +1,206 @@
+body {
+	background-color: #363637;
+}
+
+h1 {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 58px;
+	color: #70a590;
+	letter-spacing: 1px;
+}
+
+h2 {
+	font-family: 'Roboto Condensed', sans-serif;
+	letter-spacing: 1px;
+	color: #b1748f;
+	padding-bottom: 10px;
+}
+
+h3 {
+	font-family: 'Roboto Condensed', sans-serif;
+	color: #363637;
+}
+
+h4 {
+	font-family: 'Roboto Condensed', sans-serif;
+	letter-spacing: 1px;
+	color: #363637;
+	padding-top: 15px;
+	padding-bottom: 20px;
+}
+
+p {
+	font-family: 'Roboto', sans-serif;
+	color: #363637;
+}
+
+.title-block {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.top-icons {
+	color: #f5f4ef;
+}
+
+.title-brackets {
+	color: #f5f4ef;
+}
+
+.top-icons:hover {
+	color: #b1b0ac;
+	transition: 0.1s;
+}
+
+.credits {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	color: #f5f4ef;
+	letter-spacing: 1px;
+}
+
+.list-inline {
+	font-size: 24px;
+}
+
+.list-inline > li {
+    margin-right: 20px;
+}
+
+.list-inline-two {
+  padding-left: 0;
+  margin-left: -5px;
+  list-style: none;
+  font-size: 35px;
+}
+
+.list-inline-two > li {
+  display: inline-block;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.section-yellow {
+	background-color: #e1cd6d;
+	height: 300px;
+	border:10px solid #363637;
+	padding-left: 25px;
+	padding-right: 25px;
+	position: relative;
+}
+
+.section-orange {
+	background-color: #e46f57;
+	height: 300px;
+	border:10px solid #363637;
+	padding-left: 25px;
+	padding-right: 25px;
+	position: relative;
+}
+
+.section-pink {
+	background-color: #b1748f;
+	height: 300px;
+	border:10px solid #363637;
+	padding-left: 25px;
+	padding-right: 25px;
+	position: relative;
+}
+
+.section-green {
+	background-color: #70a590;
+	height: 300px;
+	border:10px solid #363637;
+	padding-left: 25px;
+	padding-right: 25px;
+	position: relative;
+}
+
+#weather-report-div:hover, active {
+	background-image:url('img/weather-report-screenshot.png');
+	background-position:center;
+	border:5px solid #363637;
+	transition: .1s;
+}
+
+#dio-div:hover, active {
+	background-image:url('img/dio-screenshot.png');
+	background-position: center;
+	border:5px solid #363637;
+	transition: .1s;
+}
+
+#spaz-div:hover, active {
+	background-image:url('img/spaz-screenshot.png');
+	background-position:center;
+	border:5px solid #363637;
+	transition: .1s;
+}
+
+#cant-div:hover, active {
+	background-image:url('img/cant-screenshot.png');
+	background-position:center;
+	border:5px solid #363637;
+	transition: .1s;
+}
+
+#ct-div:hover, active {
+	background-image:url('img/ct-screenshot.png');
+	background-position:center;
+	border:5px solid #363637;
+	transition: .1s;
+}
+
+#wiki-div:hover, active {
+	background-image:url('img/wiki-screenshot.png');
+	background-position:center;
+	border:5px solid #363637;
+	transition: .1s;
+} 
+
+.btn {
+    padding: 14px 24px;
+    width: 145px;
+    border: 0 none;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+ 
+.btn:focus, .btn:active:focus, .btn.active:focus {
+    outline: 0 none;
+}
+ 
+.btn-primary {
+    background: #363637;
+    color: #ffffff;
+    border-radius: 0px;
+}
+ 
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+    background: #434344;
+    font-size: 105%;
+    font-weight: 900;
+    letter-spacing: 3px;
+    transition: .1s;
+}
+ 
+.btn-primary:active, .btn-primary.active, .btn-primary:focus, .btn-primary.focus {
+    background: #2f2f2f;
+    box-shadow: none;
+}
+
+.btn-primary:active:hover,
+.btn-primary.active:hover,
+.open > .dropdown-toggle.btn-primary:hover,
+.btn-primary:active:focus,
+.btn-primary.active:focus,
+.open > .dropdown-toggle.btn-primary:focus,
+.btn-primary:active.focus,
+.btn-primary.active.focus,
+.open > .dropdown-toggle.btn-primary.focus {
+  color: #fff;
+  background-color: #505051;
+  border-color: none;
+}
