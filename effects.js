@@ -48,7 +48,7 @@ $(document).ready(function(){
             <li><i class="devicon-photoshop-plain"></i></li>\
           </ul>\
           <br>\
-          <a class="btn btn-primary sharp center-block" href="http://streetpassaz.com" target="_blank">visit site</a>\
+          <a class="btn btn-primary sharp center-block" href="http://itsumo-online.net/lemon/spaz" target="_blank">visit site</a>\
 	</p>';
     $("#spaz-div").hover(function(){
         $("#spaz-text").hide().html(spazNewContent).fadeIn(400);
