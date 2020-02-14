@@ -10,7 +10,7 @@ $(document).ready(function(){
             <li><i class="devicon-bootstrap-plain-wordmark"></i></li>\
           </ul>\
           <br>\
-          <a class="btn btn-primary sharp center-block" href="http://codepen.io/codelinde/full/XNPmqa" target="_blank">visit site</a>\
+          <a class="btn btn-primary sharp center-block" href="weather-report" target="_blank">visit site</a>\
 	</p>';
     $("#weather-report-div").hover(function(){
         $("#weather-report-text").hide().html(weatherReportNewContent).fadeIn(400);
