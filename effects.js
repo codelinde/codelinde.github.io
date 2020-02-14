@@ -29,7 +29,7 @@ $(document).ready(function(){
             <li><i class="devicon-bootstrap-plain-wordmark"></i></li>\
           </ul>\
           <br>\
-          <a class="btn btn-primary sharp center-block" href="http://codepen.io/codelinde/full/ozJxgG" target="_blank">visit site</a>\
+          <a class="btn btn-primary sharp center-block" href="ronnie-james-dio-quote-generator" target="_blank">visit site</a>\
 	</p>';
     $("#dio-div").hover(function(){
         $("#dio-text").hide().html(dioNewContent).fadeIn(400);
@@ -104,7 +104,7 @@ $(document).ready(function(){
                 <li><i class="devicon-bootstrap-plain-wordmark"></i></li>\
             </ul>\
             <br>\
-            <a class="btn btn-primary sharp center-block" href="http://codepen.io/codelinde/full/MJaxZz/" target="_blank">visit site</a>\
+            <a class="btn btn-primary sharp center-block" href="wikipedia-viewer" target="_blank">visit site</a>\
     </p>';
         $("#wiki-div").hover(function(){
             $("#wiki-text").hide().html(wikiNewContent).fadeIn(400);
