@@ -158,6 +158,20 @@ p {
 	transition: .1s;
 } 
 
+#passgen-div:hover, active {
+	background-image:url('img/passgen-screenshot.png');
+	background-position:center;
+	border:5px solid #363637;
+	transition: .1s;
+}
+
+#mark-div:hover, active {
+	background-image:url('img/mark-screenshot.png');
+	background-position:center;
+	border:5px solid #363637;
+	transition: .1s;
+}
+
 .btn {
     padding: 14px 24px;
     width: 145px;
