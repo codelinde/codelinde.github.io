@@ -37,23 +37,23 @@ $(document).ready(function () {
         $("#dio-text").hide().html(dioOriginalContent).fadeIn(400);
     });
 
-    var spazOriginalContent = $("#spaz-text").html();
-    var spazNewContent = '<h4 class="text-center">technologies used</h4>\
+    var drumOriginalContent = $("#drum-text").html();
+    var drumNewContent = '<h4 class="text-center">technologies used</h4>\
 	<p>\
 	<ul class="list-inline-two text-center">\
             <li><i class="devicon-html5-plain-wordmark"></i></li>\
             <li><i class="devicon-css3-plain-wordmark"></i></li>\
-            <li><i class="devicon-jquery-plain-wordmark"></i></li>\
-            <li><i class="devicon-bootstrap-plain-wordmark"></i></li>\
-            <li><i class="devicon-photoshop-plain"></i></li>\
+            <li><i class="devicon-react-original-wordmark"></i></li>\
+            <li><i class="devicon-heroku-plain-wordmark"></i></li>\
+            <li><i class="devicon-git-plain"></i></li>\
           </ul>\
           <br>\
-          <a class="btn btn-primary sharp center-block" href="http://itsumo-online.net/lemon/spaz" target="_blank">visit site</a>\
+          <a class="btn btn-primary sharp center-block" href="https://drum-machine-1917.herokuapp.com/" target="_blank">visit site</a>\
 	</p>';
-    $("#spaz-div").hover(function () {
-        $("#spaz-text").hide().html(spazNewContent).fadeIn(400);
+    $("#drum-div").hover(function () {
+        $("#drum-text").hide().html(drumNewContent).fadeIn(400);
     }, function () {
-        $("#spaz-text").hide().html(spazOriginalContent).fadeIn(400);
+        $("#drum-text").hide().html(drumOriginalContent).fadeIn(400);
     });
 
     var cantOriginalContent = $("#cant-text").html();
