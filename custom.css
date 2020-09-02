@@ -130,8 +130,8 @@ p {
 	transition: .1s;
 }
 
-#spaz-div:hover, active {
-	background-image:url('img/spaz-screenshot.png');
+#drum-div:hover, active {
+	background-image:url('img/drum-screenshot.png');
 	background-position:center;
 	border:5px solid #363637;
 	transition: .1s;
